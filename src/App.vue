@@ -4,7 +4,7 @@
   <h1>To-Do List</h1>
   <ul>
     <li>
-      <to-do-item></to-do-item>
+      <to-do-item label = "My ToDo Item" :done="false"></to-do-item>
     </li>
   </ul>
 </template>
@@ -17,7 +17,7 @@ export default {
   name: 'App',
   components: {
     ToDoItem
-  }
+  },
 }
 </script>
 
